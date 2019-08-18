@@ -168,7 +168,7 @@ Two policies are created in the **Deployments** node of the **Monitoring** works
 
 The production policy (CoMgmtSettingsProd) is targeted to the **All Systems** collection. It has an applicability condition that checks the OS type and version. If the client is a server OS or not Windows 10, the policy doesn't apply, and no action is taken.
 
-## WMI device data
+## WMI device data ??Does this class exist??
 
 Query the **SMS_Client_ComanagementState** WMI class. You can create custom collections in Configuration Manager, which help determine the status of your co-management deployment. For more information on creating custom collections, see [How to create collections](/sccm/core/clients/manage/collections/create-collections).
 
